@@ -1,0 +1,143 @@
+body {
+ 
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+header {
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+
+
+}
+
+.logo {
+
+	float: left;
+	margin-top:30px;
+	margin-left:50px;
+
+}
+
+.menu li {
+
+	display: inline-block;
+	line-height: 7;
+	float: right;
+	padding-right: 20px;
+
+}
+
+nav {
+height: 150px;
+}
+
+.contact {
+
+	margin-right: 75px;
+}
+
+.petit_photo {
+	list-style: none;
+	float:right;
+	margin:0;
+	margin-top:30px;
+}
+.caroussel {
+	margin-left:auto;
+	margin-right:auto;
+	width:20%;
+	height:10%;
+}
+.service {
+	clear:both;
+	display:flex;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	text-align:center;
+}
+
+.service a {
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 6px;
+}
+
+.about img {
+	float: right;
+	width: 50%;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+
+.about {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.contact {
+   margin-right: auto;
+   margin-left: auto;
+   width: 70%;
+}
+
+.contact img {
+
+	float: right;
+	width: 50%;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+
+.contact li {
+
+	padding-bottom: 60px;
+	list-style: none;
+}
+
+.mail 
+{
+	margin-left:100px;
+}
+.info_class {
+	font-style:oblique;
+}
+.question {
+	margin-left:auto;
+	margin-right: auto;
+	width:70%;
+	height:300px;
+	text-align:center;
+}
+.question input,textarea {
+	display: block;
+	width:250px;
+	margin-top:10px;
+	height:25px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.question textarea {
+	height:70px;
+}
+.question button {
+	margin-left:210px;
+	margin-top:10px;
+}
+
+footer {
+
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	display:flex;
+}
+footer div {
+	width:30%;
+}
