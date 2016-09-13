@@ -1,143 +1,195 @@
 body {
- 
  height: 100%;
  width: 100%;
  margin: 0;
  padding: 0;
+ background-color: #8c9184;
 }
-
+html {
+ margin: 0;
+ padding: 0;
+}
 header {
-
+	margin:0;
+	padding:0;
+	height: 20em;
+}
+nav{
+	margin:0;
+	padding:0;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	height: 8em;
+}
+.box {
+	background-image: url(http://lorempicsum.com/simpsons/627/300/4);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	min-height:20em;
+	background-color: #8c9184;
+}
+.logo {
+	float:left;
+	margin-left:2em;
+	margin-top:1em;
+}
+.menu li {	
+	display:inline-block;
+	padding-right: 1em;
+	line-height: 5;
+}
+.menu a {
+	 color:#75D701;
+	 text-decoration: none;
+}
+.menu a:hover{
+	color:#FFF;
+}
+.contact {
+	margin-left: 20em;
+}
+.menu {
+	margin-top: 0;
+}
+.placement {
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
-
-
+	width:100%;
 }
-
-.logo {
-
-	float: left;
-	margin-top:30px;
-	margin-left:50px;
-
-}
-
-.menu li {
-
-	display: inline-block;
-	line-height: 7;
-	float: right;
-	padding-right: 20px;
-
-}
-
-nav {
-height: 150px;
-}
-
-.contact {
-
-	margin-right: 75px;
-}
-
 .petit_photo {
-	list-style: none;
-	float:right;
-	margin:0;
-	margin-top:30px;
+    list-style: none;
+    float:right;
+    margin:0; 
 }
 .caroussel {
-	margin-left:auto;
-	margin-right:auto;
-	width:20%;
-	height:10%;
+    margin-left:auto;
+    margin-right:auto;
+    width:30%;
+    height:10%;
+    text-align:center;
 }
 .service {
-	clear:both;
-	display:flex;
-	margin-left:auto;
-	margin-right:auto;
-	width:70%;
-	text-align:center;
+    clear:both;
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+    min-height: 26em;
+    background-color: red;
+    text-align:center;
+    background-color: #fffcf0;
+    margin-top: 1em;
+    border-top:1px solid white;
 }
-
+.service img {
+	margin-top:1em;
+}
 .service a {
-	border: 1px solid black;
-	padding: 5px;
-	border-radius: 6px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 6px;
 }
-
 .about img {
-	float: right;
-	width: 50%;
-	margin-top: 20px;
-	margin-right: 5px;
+    float: right;
+    width: 50%;
+    margin-top: 3.6em;
+    margin-right: 5px;
 }
-
 .about {
-	margin-left: auto;
-	margin-right: auto;
-	width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: #fffcf0;
+    height: 25em;
+    border-top:1px solid white;
+    margin-top: 1em;
 }
-
-.contact {
+h2 {
+	 margin-top: 0;
+}
+.about p {
+	margin-top: 2em;
+}
+.contact_info {
    margin-right: auto;
+   border-top:1px solid white;
    margin-left: auto;
    width: 70%;
+   background-color: #fffcf0;
+   min-height: 25em;
+   margin-top: 1em;
 }
-
-.contact img {
-
-	float: right;
-	width: 50%;
-	margin-top: 20px;
-	margin-right: 5px;
+.contact_info img {
+    float: right;
+    width: 50%;
+    margin-top: 3.6em;
+    margin-right: 5px;
 }
-
-.contact li {
-
-	padding-bottom: 60px;
-	list-style: none;
+.contact_info li {
+    padding-bottom: 60px;
+    list-style: none;
+    margin-top: 2em;
 }
-
 .mail 
 {
-	margin-left:100px;
+    margin-left:100px;
 }
 .info_class {
-	font-style:oblique;
+    font-style:oblique;
 }
 .question {
-	margin-left:auto;
-	margin-right: auto;
-	width:70%;
-	height:300px;
-	text-align:center;
+
+    margin-left:auto;
+    margin-right: auto;
+    width:70%;
+    height:300px;
+    text-align:center;
+    background-color: #fffcf0;
 }
 .question input,textarea {
-	display: block;
-	width:250px;
-	margin-top:10px;
-	height:25px;
-	margin-left:auto;
-	margin-right:auto;
+    display: block;
+    width:250px;
+    margin-top:10px;
+    height:25px;
+    margin-left:auto;
+    margin-right:auto;
 }
 .question textarea {
-	height:70px;
+    height:70px;
 }
 .question button {
-	margin-left:210px;
-	margin-top:10px;
+    margin-left:210px;
+    margin-top:10px;
 }
+.question h2 {
 
-footer {
-
-	margin-left:auto;
-	margin-right:auto;
-	width:70%;
-	display:flex;
 }
-footer div {
-	width:30%;
+.flex_footer{
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+    display:flex;
+    min-height:12em;
+    background-color: #8c9184;
+}
+.flex_footer div {
+    width:30%;
+    margin-top:2em;
+}
+.come {
+	margin-left:2em;
+}
+.icone h2 {
+	margin-top: 0;
+	text-align:center;
+}
+.icone i {
+	font-size:40px;
+}
+.first_icone {
+	margin-left:2.2em;
 }
